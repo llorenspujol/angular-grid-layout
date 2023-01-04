@@ -12,7 +12,7 @@
         "experimentalDecorators": true,
         "moduleResolution": "node",
         "importHelpers": true,
-        "target": "es2020",
+        "target": "ES2022",
         "module": "es2020",
         "strictNullChecks": true,
         "lib": [
@@ -23,7 +23,8 @@
             "@katoid/angular-grid-layout": [
                 "dist/angular-grid-layout"
             ]
-        }
+        },
+        "useDefineForClassFields": false
     },
     "angularCompilerOptions": {
         "strictInjectionParameters": true,
